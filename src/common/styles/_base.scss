@@ -17,7 +17,7 @@ body {
   flex-direction: row;
   margin: 25px;
   padding: 25px;
-  padding-left: 70px;
+  padding-left: 80px;
 }
 
 .header-logo {
@@ -28,14 +28,14 @@ body {
 .header-text {
   display: flex;
   flex-direction: row;
-  padding-left: 250px;
+  padding-left: 116px;
 }
 
 .text {
   display: flex;
   flex-direction: column;
-  padding-left: 55px;
-  padding-top: 150px;
+  padding-left: 70px;
+  padding-top: 200px;
   line-height: 0.5px;
   box-sizing: border-box;
 }
@@ -56,8 +56,27 @@ body {
 
 .header-image {
   position: absolute;
-  float: right;
-  bottom: 100px;
-  right: 237px;
+  bottom: 80px;
+  left: 263px;
   z-index: -1;
+}
+
+.right-column {
+  position: relative;
+  float: right;
+  bottom: 430px;
+  left: 30px;
+}
+
+.vertical-text {
+  transform: rotate(-90deg);
+  color: #dedede;
+  letter-spacing: 2px;
+}
+
+.social {
+  position: absolute;
+  float: right;
+  right: 55px;
+  bottom: 65px;
 }
