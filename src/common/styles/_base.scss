@@ -5,7 +5,8 @@ html {
 
 body {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 
 .hero {
@@ -59,7 +60,7 @@ body {
 .header-image {
   position: absolute;
   bottom: 80px;
-  left: 263px;
+  left: 376px;
   z-index: -1;
 }
 
@@ -78,8 +79,7 @@ body {
 
 .social {
   position: absolute;
-  float: right;
-  right: 55px;
+  right: 175px;
   bottom: 65px;
 }
 
@@ -100,8 +100,9 @@ body {
   border-left: 2px solid #5da8ef;
   height: 100px;
   position: relative;
-  left: 830px;
+  left: 710px;
   top: 35px;
+  width: 20px;
 }
 
 .media-content {
@@ -128,4 +129,41 @@ body {
   border-bottom: 2px solid #5da8ef;
   width: 97px;
   margin-left: 140px;
+}
+
+.media-content-video {
+  border: 1px solid red;
+  position: relative;
+  float: right;
+  width: 56.7;
+  height: 564px;
+  margin-top: -550px;
+  z-index: 1;
+}
+
+.play-image {
+  position: absolute;
+  top: 45%;
+  left: 43%;
+}
+
+.button-play {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+}
+
+.shop {
+  border: 1px solid red;
+  text-align: center;
+  margin-top: 160px;
+}
+
+.shop-text {
+  color: #5da8ef;
+  letter-spacing: 2px;
+}
+
+.shop-surfboards {
+  line-height: 1px;
 }
