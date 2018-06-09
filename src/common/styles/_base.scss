@@ -24,7 +24,6 @@ a:hover {
 .hero {
   max-width: 100%;
   height: 900px;
-  border: 1px solid red;
 }
 
 .header {
@@ -70,7 +69,7 @@ a:hover {
 
 .header-image {
   position: absolute;
-  bottom: 200px;
+  bottom: 220px;
   left: 376px;
   z-index: -1;
 }
@@ -91,12 +90,11 @@ a:hover {
 .social {
   position: absolute;
   right: 175px;
-  bottom: 170px;
+  bottom: 190px;
   line-height: 50px;
 }
 
 .quote {
-  border: 1px solid red;
   height: 310px;
   margin-bottom: 30px;
 }
@@ -122,7 +120,6 @@ a:hover {
 }
 
 .media-content {
-  border: 1px solid red;
   margin-left: 120px;
   width: 38.4%;
 }
@@ -148,7 +145,6 @@ a:hover {
 }
 
 .media-content-video {
-  border: 1px solid red;
   position: relative;
   float: right;
   width: 56.7;
@@ -170,7 +166,6 @@ a:hover {
 }
 
 .shop {
-  border: 1px solid red;
   text-align: center;
   margin-top: 160px;
 }
@@ -189,9 +184,7 @@ a:hover {
   margin-top: 20px;
   width: 1440px;
   height: 490px;
-  border: 1px solid red;
   justify-content: center;
-  overflow: hidden;
 }
 
 .container {
@@ -200,7 +193,6 @@ a:hover {
 }
 
 .item-1, .item-2, .item-3 {
-  border: 1px solid red;
   width: 30%;
   display: block;
   box-sizing: border-box;
@@ -345,7 +337,6 @@ a:hover {
   height: auto;
   margin-top: 80px;
   margin-bottom: 180px;
-  border: 1px solid red;
 }
 
 .show-all {
@@ -362,14 +353,12 @@ a:hover {
 }
 
 .article-1 {
-  border: 1px solid red;
   width: 1440px;
   height: 450px;
 }
 
 .article-1-main {
   width: 35%;
-  border: 1px solid red;
   height: 400px;
 }
 
@@ -423,7 +412,6 @@ a:hover {
 .article-1-image {
   position: relative;
   float: right;
-  border: 1px solid red;
   right: 160px;
   height: 439px;
   bottom: 398px;
@@ -444,7 +432,6 @@ a:hover {
 
 .article-2 {
   position: relative;
-  border: 1px solid red;
   width: 1050px;
   height: 439px;
   margin: 0 auto;
@@ -471,7 +458,6 @@ a:hover {
 }
 
 .article-2-main {
-  border: 1px solid red;
   position: absolute;
   left: 568px;
   width: 480px;
@@ -535,7 +521,6 @@ a:hover {
 }
 
 .subscribe {
-  border: 1px solid red;
   width: 1440px;
   margin: 0 auto;
   position: relative;
@@ -594,7 +579,6 @@ button:before {
 }
 
 .address-block {
-  border: 1px solid red;
   width: 1440px;
   height: 475px;
   position: relative;
@@ -606,7 +590,6 @@ button:before {
   float: right;
   width: 500px;
   height: 300px;
-  border: 1px solid red;
   top: 100px;
   right: 170px;
 }
@@ -644,7 +627,6 @@ button:before {
 .footer {
   width: 1440px;
   height: 280px;
-  border: 1px solid red;
   margin-top: 100px;
 }
 
@@ -653,7 +635,6 @@ button:before {
 }
 
 .footer-title {
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   margin-top: 30px;
@@ -666,7 +647,6 @@ button:before {
 .footer-social {
   position: relative;
   bottom: 140px;
-  border: 1px solid red;
   display: flex;
   justify-content: space-around;
   width: 160px;
